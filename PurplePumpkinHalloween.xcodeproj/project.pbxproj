@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6410DBFA255B4F9600901952 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410DBF8255B4F9500901952 /* PageViewController.swift */; };
+		6410DBFB255B4F9600901952 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410DBF9255B4F9600901952 /* PageControl.swift */; };
+		6410DBFE255B5DF800901952 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410DBFD255B5DF800901952 /* HomeView.swift */; };
+		6410DC02255B5E3C00901952 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6410DC01255B5E3C00901952 /* README.md */; };
 		6443CC4F25576394008DB0CE /* PurplePumpkinHalloweenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6443CC4E25576394008DB0CE /* PurplePumpkinHalloweenApp.swift */; };
 		6443CC5125576394008DB0CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6443CC5025576394008DB0CE /* ContentView.swift */; };
 		6443CC5325576398008DB0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6443CC5225576398008DB0CE /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6410DBF8255B4F9500901952 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		6410DBF9255B4F9600901952 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		6410DBFD255B5DF800901952 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6410DC01255B5E3C00901952 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6443CC4B25576394008DB0CE /* PurplePumpkinHalloween.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurplePumpkinHalloween.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6443CC4E25576394008DB0CE /* PurplePumpkinHalloweenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurplePumpkinHalloweenApp.swift; sourceTree = "<group>"; };
 		6443CC5025576394008DB0CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +44,7 @@
 		6443CC4225576394008DB0CE = {
 			isa = PBXGroup;
 			children = (
+				6410DC01255B5E3C00901952 /* README.md */,
 				6443CC4D25576394008DB0CE /* PurplePumpkinHalloween */,
 				6443CC4C25576394008DB0CE /* Products */,
 			);
@@ -52,6 +61,9 @@
 		6443CC4D25576394008DB0CE /* PurplePumpkinHalloween */ = {
 			isa = PBXGroup;
 			children = (
+				6410DBFD255B5DF800901952 /* HomeView.swift */,
+				6410DBF9255B4F9600901952 /* PageControl.swift */,
+				6410DBF8255B4F9500901952 /* PageViewController.swift */,
 				6443CC4E25576394008DB0CE /* PurplePumpkinHalloweenApp.swift */,
 				6443CC5025576394008DB0CE /* ContentView.swift */,
 				6443CC5225576398008DB0CE /* Assets.xcassets */,
@@ -126,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6410DC02255B5E3C00901952 /* README.md in Resources */,
 				6443CC5625576398008DB0CE /* Preview Assets.xcassets in Resources */,
 				6443CC5325576398008DB0CE /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6410DBFA255B4F9600901952 /* PageViewController.swift in Sources */,
 				6443CC5125576394008DB0CE /* ContentView.swift in Sources */,
+				6410DBFB255B4F9600901952 /* PageControl.swift in Sources */,
+				6410DBFE255B5DF800901952 /* HomeView.swift in Sources */,
 				6443CC4F25576394008DB0CE /* PurplePumpkinHalloweenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
