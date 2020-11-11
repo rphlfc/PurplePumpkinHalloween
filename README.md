@@ -4,10 +4,13 @@ Cheguei um pouco atrasado pro Halloween mas desde que vi esse[ design no Dribbbl
 ## Screenshots
 <p align="center">
     <img src="https://user-images.githubusercontent.com/16376748/98748083-b1813180-2397-11eb-844d-ea3b78935ad0.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/98875033-261ca480-245a-11eb-8fba-8ed90baa5cdb.png" width="400">&nbsp;
 </p>
 
 ## Vídeos
-- [Vídeo no YouTube](https://youtu.be/isfKnizZUTs)
+- [Vídeo no YouTube 1/3](https://youtu.be/isfKnizZUTs)
+- [Vídeo no YouTube 2/3](https://youtu.be/3kVwje31AEM)
+- Vídeo no YouTube 3/3 - Em breve
  
 ## Requisitos
 - iOS 14
