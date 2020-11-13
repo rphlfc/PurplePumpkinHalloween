@@ -16,6 +16,7 @@
 		6443CC5125576394008DB0CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6443CC5025576394008DB0CE /* ContentView.swift */; };
 		6443CC5325576398008DB0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6443CC5225576398008DB0CE /* Assets.xcassets */; };
 		6443CC5625576398008DB0CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6443CC5525576398008DB0CE /* Preview Assets.xcassets */; };
+		64772CFD255E06D4007081E7 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64772CFC255E06D4007081E7 /* TicketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6443CC5225576398008DB0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6443CC5525576398008DB0CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6443CC5725576398008DB0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64772CFC255E06D4007081E7 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				6410DBF8255B4F9500901952 /* PageViewController.swift */,
 				6443CC4E25576394008DB0CE /* PurplePumpkinHalloweenApp.swift */,
 				6443CC5025576394008DB0CE /* ContentView.swift */,
+				64772CFC255E06D4007081E7 /* TicketView.swift */,
 				6443CC5225576398008DB0CE /* Assets.xcassets */,
 				6443CC5725576398008DB0CE /* Info.plist */,
 				6443CC5425576398008DB0CE /* Preview Content */,
@@ -157,6 +160,7 @@
 				6410DBFA255B4F9600901952 /* PageViewController.swift in Sources */,
 				6443CC5125576394008DB0CE /* ContentView.swift in Sources */,
 				6410DBFB255B4F9600901952 /* PageControl.swift in Sources */,
+				64772CFD255E06D4007081E7 /* TicketView.swift in Sources */,
 				6410DC1C255C9FEB00901952 /* Line.swift in Sources */,
 				6410DBFE255B5DF800901952 /* HomeView.swift in Sources */,
 				6443CC4F25576394008DB0CE /* PurplePumpkinHalloweenApp.swift in Sources */,

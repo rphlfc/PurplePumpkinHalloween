@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct HomeView: View {
-    var topPadding = UIApplication.shared.windows.first?.safeAreaInsets.top
-    
+    let topPadding = UIApplication.shared.windows.first?.safeAreaInsets.top
     let blurEffect = Blur(style: .systemUltraThinMaterialDark)
     
     @State var currentPage: Int = 0
+    @Binding var showDetails: Bool
     
     var body: some View {
         ZStack {
@@ -113,7 +113,11 @@ struct HomeView: View {
                     
                     Spacer(minLength: 0)
                     
-                    Button(action: {}, label: {
+                    Button(action: {
+                        withAnimation(.spring()) {
+                            showDetails.toggle()
+                        }
+                    }, label: {
                         HStack {
                             Text("Buy Tickets")
                                 .font(.system(size: 17, weight: .bold))
@@ -172,6 +176,6 @@ struct Blur: UIViewRepresentable {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView(showDetails: .constant(false))
     }
 }
